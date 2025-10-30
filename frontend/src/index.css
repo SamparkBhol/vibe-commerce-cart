@@ -1,21 +1,57 @@
-/* ... existing tailwind imports ... */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* --- ADD THIS NEW CODE FOR THE CHATBOT --- */
-
+/* FOR CHAT BUBBLES */
 .chat-bubble {
   @apply p-3 rounded-lg max-w-xs text-sm;
 }
-
 .chat-bubble.bot {
   @apply bg-gray-200 text-gray-800 self-start;
-  border-bottom-left-radius: 0;
 }
-
 .chat-bubble.user {
   @apply bg-indigo-600 text-white self-end;
-  border-bottom-right-radius: 0;
+}
+
+/* FOR PAGE FADE-IN (AND OTHER ANIMATIONS) */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease-in-out;
+}
+.animate-slide-in-left {
+  animation: slideInLeft 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+/* FOR CART PULSE ANIMATION */
+.animate-pulse-border {
+  border-width: 2px;
+  animation: pulse-border 1s ease-in-out;
+}
+
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #6366f1; /* This is an indigo color */
+    box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+  }
 }
 
