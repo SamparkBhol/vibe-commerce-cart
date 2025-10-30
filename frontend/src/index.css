@@ -1,0 +1,21 @@
+/* ... existing tailwind imports ... */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- ADD THIS NEW CODE FOR THE CHATBOT --- */
+
+.chat-bubble {
+  @apply p-3 rounded-lg max-w-xs text-sm;
+}
+
+.chat-bubble.bot {
+  @apply bg-gray-200 text-gray-800 self-start;
+  border-bottom-left-radius: 0;
+}
+
+.chat-bubble.user {
+  @apply bg-indigo-600 text-white self-end;
+  border-bottom-right-radius: 0;
+}
+
