@@ -57,3 +57,72 @@ To showcase advanced capabilities and gain some “brownie points,” these bonu
 
 ---
 
+## after loom video addtional updates
+
+## 🆕 Added New Features
+
+- **🦴 Product Skeleton Loaders:**  
+  Instead of a single spinner, the store page now shows a grid of "skeleton" placeholders while products are loading — creating a smoother, more modern UI experience.
+
+- **🏷️ "On Sale" Products:**  
+  Products are now dynamically marked as "On Sale" with a bold "Sale" badge and a slashed-out original price to highlight discounts.
+
+- **🤝 Related Products:**  
+  The "Quick View" modal was upgraded to include a "You Might Also Like" section featuring related items from the same category.
+
+- **🕵️‍♂️ Recently Viewed History:**  
+  The app now tracks all recently viewed products and displays them in a "Recently Viewed" sidebar with a convenient "Clear History" button.
+
+- **🔔 Multi-Notification Toast System:**  
+  Notifications now support multiple concurrent toasts — stacking neatly and fading out individually for rapid actions like quick item additions.
+
+- **👤 Mock Login System:**  
+  The Profile sidebar now includes a mock "Log In" / "Log Out" flow to simulate a full user session experience.
+
+- **🎞️ New Sidebar Animations:**  
+  Fresh slide-in-from-left/right animations were added in `index.css` to support the new Profile and Mini-Cart sidebars.
+
+- **📦 Stock Inventory Management (Critical Fix):**  
+  Prevents adding more items to the cart than available stock (e.g., “Only 5 left!”).
+
+- **🎫 One-Time Promo Code (Critical Fix):**  
+  The promo code `VIBE10` is now correctly marked as “Applied” and disabled after one use.
+
+- **🛒 Mini-Cart Sidebar:**  
+  Replaced the static cart with a modern slide-in "Mini-Cart" sidebar for a cleaner shopping experience.
+
+- **👥 Profile Sidebar:**  
+  Added a new "Profile" sidebar (slide-in) to manage wallet details and simulate user identity for future authentication.
+
+- **⭐ Star Ratings:**  
+  Introduced a `StarRating` component to visually display average product ratings.
+
+- **↕️ Product Sorting:**  
+  Added a dropdown to sort products by “Popularity,” “Price: Low to High,” and “Price: High to Low.”
+
+- **💸 Promo Code System:**  
+  Integrated base promo code logic directly into the cart flow for initial discount functionality.
+
+- **🔥 Bestseller & Low Stock Badges:**  
+  Dynamic badges highlight bestsellers and low-stock products to build urgency and engagement.
+
+- **💰 Mock Wallet "Top-up":**  
+  Users can now “Add $100” to their wallet balance from the checkout modal if funds are insufficient.
+
+- **💫 "Pulse" Cart Animation:**  
+  Added a glowing “pulse” effect on the cart component whenever a new item is added, drawing visual attention to successful actions.
+
+```
+ss
+```
+<img width="1896" height="917" alt="image" src="https://github.com/user-attachments/assets/b96ad8e2-6118-439c-ba7c-7e03baee9de2" />
+<img width="1101" height="768" alt="image" src="https://github.com/user-attachments/assets/33ae7778-17f7-4136-aace-2d4ca7e5f448" />
+<img width="1501" height="818" alt="image" src="https://github.com/user-attachments/assets/60e77a9d-35ac-48fc-ae80-1107f48eebb4" />
+<img width="586" height="530" alt="image" src="https://github.com/user-attachments/assets/b82ddf45-f90d-40ef-9aa4-2acd6b561b95" />
+<img width="525" height="505" alt="image" src="https://github.com/user-attachments/assets/6b3c459b-3513-4339-8cb3-37dfbe5c55e5" />
+<img width="558" height="893" alt="image" src="https://github.com/user-attachments/assets/0d578898-ac1f-4fb6-b173-c0f97dbbe84c" />
+
+
+
+
+
