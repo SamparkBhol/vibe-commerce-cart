@@ -107,7 +107,7 @@ ss
 <img width="1501" height="818" alt="image" src="https://github.com/user-attachments/assets/60e77a9d-35ac-48fc-ae80-1107f48eebb4" />
 <img width="586" height="530" alt="image" src="https://github.com/user-attachments/assets/b82ddf45-f90d-40ef-9aa4-2acd6b561b95" />
 <img width="525" height="505" alt="image" src="https://github.com/user-attachments/assets/6b3c459b-3513-4339-8cb3-37dfbe5c55e5" />
-<img width="558" height="893" alt="image" src="https://github.com/user-attachments/assets/0d578898-ac1f-4fb6-b173-c0f97dbbe84c" />
+<img width="561" height="887" alt="image" src="https://github.com/user-attachments/assets/74980846-d757-49e5-a428-c23fe2dcbc0a" />
 
 ---
 
