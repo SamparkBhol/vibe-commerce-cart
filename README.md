@@ -42,19 +42,6 @@ To showcase advanced capabilities and gain some “brownie points,” these bonu
   - Click any product image to open a “Quick View” modal with full description.  
 - 💬 **Trivia Chatbot (VibeBot):**  
   - A fun, hardcoded chatbot that offers a flashcard-style **tech trivia game**.
-
----
-
-## ⚙️ Tech Stack
-
-| Layer | Technology |
-|-------|-------------|
-| **Frontend** | React (Create React App) |
-| **Backend** | Node.js & Express.js |
-| **Styling** | Tailwind CSS |
-| **API Client** | Axios |
-| **API Source** | [Fake Store API](https://fakestoreapi.com/) |
-
 ---
 
 ## after loom video addtional updates
@@ -122,7 +109,17 @@ ss
 <img width="525" height="505" alt="image" src="https://github.com/user-attachments/assets/6b3c459b-3513-4339-8cb3-37dfbe5c55e5" />
 <img width="558" height="893" alt="image" src="https://github.com/user-attachments/assets/0d578898-ac1f-4fb6-b173-c0f97dbbe84c" />
 
+---
 
+## ⚙️ Tech Stack
 
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React (Create React App) |
+| **Backend** | Node.js & Express.js |
+| **Styling** | Tailwind CSS |
+| **API Client** | Axios |
+| **API Source** | [Fake Store API](https://fakestoreapi.com/) |
 
+---
 
