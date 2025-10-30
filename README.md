@@ -10,6 +10,8 @@ This project demonstrates a complete, modern user flow from **product browsing t
 **Demo Video:**  
 https://www.loom.com/share/e3b231d68c404c65b6d2cfabddb963d5
 
+https://www.loom.com/share/ca3e63fc3dd843cda370220ac63c700e
+
 ---
 
 ## ✨ Core Features
